@@ -1,0 +1,12 @@
+{
+  "title": "Notes App Threat Model",
+  "date": "2026-10-20",
+  "identified_risks": {
+    "accidental-secret-leak": {
+      "title": "Accidental Secret Leak",
+      "severity": "high",
+      "exploitation_likelihood": "likely",
+      "exploitation_impact": "very-high"
+    }
+  }
+}
