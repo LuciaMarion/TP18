@@ -189,7 +189,7 @@ jobs:
       # Importación de Gitleaks JSON (TP17) a DefectDojo
       # -------------------------------------------------------------
       - name: Importar Gitleaks a DefectDojo
-        uses: defectdojo/import-scan-action@v1
+        uses: DefectDojo/defectdojo-import-scan@v1.0.0
         with:
           defectdojo_url: ${{ env.DEFECTDOJO_URL }}
           api_key: ${{ env.DEFECTDOJO_TOKEN }}
