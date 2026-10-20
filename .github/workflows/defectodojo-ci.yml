@@ -147,7 +147,7 @@ jobs:
       # Importación de Threagile Threat Model (TP14) a DefectDojo
       # -------------------------------------------------------------
       - name: Importar Threagile Threat Model a DefectDojo
-        uses: defectdojo/import-scan-action@v1
+        uses: defectdojo/import-action@v1
         with:
           defectdojo_url: ${{ env.DEFECTDOJO_URL }}
           api_key: ${{ env.DEFECTDOJO_TOKEN }}
