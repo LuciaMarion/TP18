@@ -17,12 +17,6 @@ Integración de **OWASP DefectDojo Community Edition** para consolidar, desdupli
 | **3** | OWASP DefectDojo | Vulnerability Management | Ingestión vía API v2 y deduplicación |
 | **4** | Helm & K8s | Despliegue a producción | Release verificado en Kubernetes |
 
-## Comandos de Verificación Local
-### Otorgar permisos y ejecutar script de carga a DefectDojo
-chmod +x scripts/verificar-defectdojo.sh
-DEFECTDOJO_URL="http://localhost:8080" 
-DEFECTDOJO_API_KEY="tu_token" 
-./scripts/verificar-defectdojo.sh
 
 ## Comandos de Verificación local
 ### Otorgar permisos y ejecutar script de carga a DefectDojo:
